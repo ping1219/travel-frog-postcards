@@ -1,0 +1,9 @@
+mountain-1-2-1c-f.jpg
+
+mountain-1 == background: 1-green mountain/ 2-blue mountain/ 3-darkgreen mountain
+
+mountain-1-2 == frog position: 1-back/ 2-45degree/ 3-side/ 4-running
+
+mountain-1-2-1c == 1a-by itself/ 2a-butterfly/ 3a-crab/ 4a-mouse
+
+mountain-1-2-1c-i/f == from iphone6 or from facebook
