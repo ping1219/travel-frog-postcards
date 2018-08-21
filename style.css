@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+}
+
+/* side nav bar styling */
+
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+}
+
+.sidenav a {
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:last-child {
+    margin-bottom: 50px;
+}
+
+.sidenav a:link {
+    color: #c332f0;
+}
+
+.sidenav a:visited {
+    color: #fda027;
+}
+
+.sidenav a:hover {
+    color: #3cf336;
+}
+
+.main {
+    margin-left: 150px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 0px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#sticky {
+    position: sticky;
+    z-index: 3;
+    background-color: green;
+    top: 0;
+    margin-top: 0;
+    padding: 12px 6px 12px 6px;
+}
+
+/* End of side nav bar */
+
+img {
+    width: 200px;
+    border: 3px solid black;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+h3{
+    color: #25AB39;
+    width: 800px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: #ff61e5;
+}
+
+/* visited link */
+a:visited {
+    color: #999494;
+}
+
+/* mouse over link */
+a:hover {
+    color: #EC3A3A;
+}
+
+/* selected link */
+a:active {
+    color: #4C65EE;
+}
